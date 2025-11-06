@@ -10,6 +10,8 @@ import { Home } from './components/home/home';
 import { Menu } from './components/menu/menu';
 import { Notfound } from './components/notfound/notfound';
 import { Numerodoble } from './components/numerodoble/numerodoble';
+import { Tablamultiplicar } from './components/tablamultiplicarrouting/tablamultiplicar';
+import { Menutablamultiplicar } from './components/menutablamultiplicar/menutablamultiplicar';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { Numerodoble } from './components/numerodoble/numerodoble';
     Home,
     Menu,
     Notfound,
-    Numerodoble
+    Numerodoble,
+    Tablamultiplicar,
+    Menutablamultiplicar
   ],
   imports: [
     BrowserModule, routing

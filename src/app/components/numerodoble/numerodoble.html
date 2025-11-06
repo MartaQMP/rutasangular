@@ -1,3 +1,10 @@
 <div id="div1">
     <h1 id="titulo">Numero Doble</h1>
+    @if (numero) {
+        <h2>El doble de {{ numero }} es {{ doble }}</h2>
+    } @else {
+        <h2>No hemos recibido ningun parametro</h2>
+    }
+    <button (click)="goToHome()" class="btn btn-dark">Volver a Home</button>
+    <button (click)="redirect(30)" class="btn btn-danger">Numero 30</button>
 </div>
